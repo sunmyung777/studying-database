@@ -1,0 +1,37 @@
+body{
+	width:100vw;
+	height:100vh;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	background-color: #FFFAF8;
+	margin:auto;
+}
+.main{
+	text-align: center;
+	background-color: #D1DDE8;
+	width:70%;
+	height:80%;
+}
+#click{
+	border:none;
+	font-size: 20px;
+	padding:5px 50px 5px 50px;
+}
+#file{
+	margin:20px;
+	font-size: 13px; 
+}
+#file:hover{
+	font-size: 15px;
+	margin:18px;
+	transition: 0.25s;
+}
+#click:hover{
+	background-color: gray;
+	transition: 0.5s;
+}
+.img{
+	width:50%;
+}
